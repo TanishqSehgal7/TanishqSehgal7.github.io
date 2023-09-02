@@ -1,5 +1,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eee;
+    padding: 0;
 }
 
 .navbar {
@@ -207,6 +209,7 @@ li.timeline-item::before {
     border: #ee7752 solid 2px;
     border-radius: 5px;
     margin: 10px;
+    background: white;
     text-align: center;
     text-justify: auto;
   }
@@ -216,5 +219,20 @@ li.timeline-item::before {
 
   }
 
-  /* #skillH1 {
-  } */
+
+  #feature {
+    background-color: white;
+    border-radius: 10px;
+  }
+
+#featureText {
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}  
+
+#featureText:hover {
+  font-weight: 700;
+  text-decoration: underline;
+}
